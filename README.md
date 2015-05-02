@@ -1,8 +1,12 @@
 # ImageProcessing
 An Image Processing Toolbox
 
-##1. [img,boxImg]=drawBox(img, box, duplicate)
-	* draw region box on a given image.
+##1. drawBox
+  * draw region box on a given image.
+  
+    	[img,boxImg]=drawBox(img, box, duplicate)
 
-##2. box = merge2Boxes(box1, box2)
-	* merge two boxes into one bigger box.
+##2. merge2Boxes
+  * merge two boxes into one bigger box.
+  
+    	box = merge2Boxes(box1, box2)
